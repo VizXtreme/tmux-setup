@@ -17,6 +17,8 @@ echo "---"
 echo "[+] Starting setup process..."
 echo "---"
 
+sleep 2
+
 echo "[+] Cloning repository..."
 git clone "$REPO_URL" "$TMP_DIR" || { echo "[-] Failed to clone repository."; exit 1; }
 
@@ -40,7 +42,7 @@ echo "[+] Compiling OneShot..."
 
 sleep 2
 
-make ~/OneShot-C/oneshot && chmod +x oneshot || { echo "[-] Failed to compile OneShot-C."; exit 1; }
+cd ~/OneShot-C && make && chmod +x oneshot || { echo "[-] Failed to compile OneShot-C."; exit 1; }
 echo "[✓] Compiled OneShot successfully (ignore the warnings)."
 
 sleep 2
