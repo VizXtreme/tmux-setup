@@ -16,6 +16,14 @@ OneShot-C - implementation of [OneShot](https://github.com/drygdryg/OneShot) on 
  make
  ```
 ## Usage examples
+Scan and start Pixie Dust attack:
+ ```
+ sudo ./oneshot -i wlan0 -K
+ ```
+ Scan and start Pixie Dust attack(Mediatek):
+ ```
+ sudo ./oneshot -i wlan0 -K --mtk-fix
+ ```
 Start Pixie Dust attack on a specified BSSID:
  ```
  sudo ./oneshot -i wlan0 -b 00:90:4C:C1:AC:21 -K
