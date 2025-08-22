@@ -7,3 +7,8 @@ Run this command in freshly-installed Termux app
 ```bash
 pkg install git && git clone https://github.com/VizXtreme/tmux-setup.git && cd tmux-setup && bash tmux-setup1.sh
 ```
+
+After this finishes, restart Termux and run
+```bash
+bash tmux-setup/2.sh
+```
