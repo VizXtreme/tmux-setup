@@ -14,7 +14,7 @@
         "break",
         {
             "type": "custom",
-            "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+            "format": "\u001b[90m┌────────────────────────Hardware────────────────────────┐"
         },
         {
             "type": "host",
@@ -23,33 +23,33 @@
         },
         {
             "type": "cpu",
-            "key": "│ ├",
+            "key": "│ ├ ",
             "showPeCoreCount": true,
             "keyColor": "green"
         },
         {
             "type": "gpu",
-            "key": "│ ├󰍛",
+            "key": "│ ├󰍛 ",
             "keyColor": "green"
         },
         {
             "type": "memory",
-            "key": "│ ├󰍛",
+            "key": "│ ├󰍛 ",
             "keyColor": "green"
         },
         {
             "type": "disk",
-            "key": "└ └",
+            "key": "└ └ ",
             "keyColor": "green"
         },
         {
             "type": "custom",
-            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+            "format": "\u001b[90m└────────────────────────────────────────────────────────┘"
         },
         "break",
         {
             "type": "custom",
-            "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+            "format": "\u001b[90m┌────────────────────────Software────────────────────────┐"
         },
         {
             "type": "os",
@@ -58,20 +58,19 @@
         },
         {
             "type": "kernel",
-            "key": "│ ├",
+            "key": "│ ├ ",
             "keyColor": "yellow"
         },
         {
             "type": "packages",
-            "key": "│ ├󰏖",
+            "key": "│ ├󰏖 ",
             "keyColor": "yellow"
         },
         {
             "type": "shell",
-            "key": "└ └",
+            "key": "└ └ ",
             "keyColor": "yellow"
         },
-        "break",
         {
             "type": "de",
             "key": " DE",
@@ -79,33 +78,22 @@
         },
         {
             "type": "lm",
-            "key": "│ ├",
-            "keyColor": "blue"
-        },
-        {
-            "type": "wm",
-            "key": "│ ├",
+            "key": "│ ├ ",
             "keyColor": "blue"
         },
         {
             "type": "wmtheme",
-            "key": "│ ├󰉼",
-            "keyColor": "blue"
-        },
-        {
-            "type": "gpu",
-            "key": "└ └󰍛",
-            "format": "{3}",
+            "key": "│ ├󰉼 ",
             "keyColor": "blue"
         },
         {
             "type": "custom",
-            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+            "format": "\u001b[90m└────────────────────────────────────────────────────────┘"
         },
         "break",
         {
             "type": "custom",
-            "format": "\u001b[90m┌────────────────────Uptime / Age────────────────────┐"
+            "format": "\u001b[90m┌──────────────────────Uptime / Age──────────────────────┐"
         },
         {
             "type": "command",
@@ -120,7 +108,7 @@
         },
         {
             "type": "custom",
-            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+            "format": "\u001b[90m└────────────────────────────────────────────────────────┘"
         },
         "break",
     ]
