@@ -10,5 +10,5 @@ pkg install git && git clone https://github.com/VizXtreme/tmux-setup.git && cd t
 
 After this finishes, restart Termux and run
 ```bash
-bash tmux-setup/2.sh
+bash tmux-setup/tmux-setup2.sh
 ```
