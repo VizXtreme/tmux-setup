@@ -10,7 +10,7 @@ echo " "
 echo "[+] Updating Termux packages..."
 echo " "
 apt update && apt upgrade -o Dpkg::Options::="--force-confold" -y
-pkg install python clang git wget curl openssh figlet make tsu x11-repo fastfetch toilet -y || { echo "[-] Failed to update."; exit 1; }
+pkg install python clang git gh wget curl openssh figlet make tsu x11-repo fastfetch toilet -y || { echo "[-] Failed to update."; exit 1; }
 echo "[✓] Updated successfully."
 
 sleep 2
