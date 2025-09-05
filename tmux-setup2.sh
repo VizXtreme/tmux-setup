@@ -36,7 +36,7 @@ sleep 2
 
 echo " "
 echo "[+] Cleaning up..."
-cd ~/ && rm -rf tmux-setup
+cd ~/ && rm -rf tmux-setup Termux-zsh
 
 sleep 2
 
