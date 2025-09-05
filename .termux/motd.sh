@@ -20,9 +20,6 @@ ${T_APP_VERSION} ${T_APK_RELEASE}${nl}
   Search:  pkg search <query>
   Install: pkg install <package>
   Update:  pkg update
-\e[0;32mSubscribing to additional repos\033[0m:
-  Root:    pkg install root-repo
-  X11:     pkg install x11-repo
 \e[0;32mFor fixing any repository issues\033[0m:
   Try \e[4mtermux-change-repo\e[0m command\n"
 fastfetch --logo none
