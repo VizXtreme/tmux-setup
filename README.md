@@ -17,3 +17,4 @@ bash tmux-setup/tmux-setup2.sh
 ```bash
 bash tmux-setup/tmux-setup-nr.sh
 ```
+### You can read the Changelogs [here](https://github.com/VizXtreme/tmux-setup/blob/main/Changelog.md)
