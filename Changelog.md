@@ -1,6 +1,6 @@
 # Changelogs
 
-## v1.0
+## v1.1
 
 • Added script for Non-Root Users.
 
