@@ -1,8 +1,10 @@
 # Changelogs
 
+## v1.0
+
 • Added script for Non-Root Users.
 
-• Added aliases - check them using `cat ~/.aliases`
+• Added aliases - check them using `cat ~/.aliases.txt`
 
 • Added script for installing extra packages - **tmux-packages.sh**
 

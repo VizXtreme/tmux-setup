@@ -1,6 +1,6 @@
 # tmux-setup
 
-A bash script to automate Termux Setup.
+### A bash script to automate Termux Setup.
 ---
 
 1. Run this command in freshly-installed Termux app

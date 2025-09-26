@@ -1,0 +1,154 @@
+# =========================
+# Navigation
+# =========================
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias home='cd ~'
+alias d='cd ~/downloads'
+alias doc='cd ~/documents'
+alias desk='cd ~/storage/shared/Desktop'
+alias pic='cd ~/storage/shared/Pictures'
+alias vid='cd ~/storage/shared/Movies'
+alias music='cd ~/storage/shared/Music'
+alias term='cd ~/../usr'
+alias here='pwd'
+alias roots='cd /'
+
+# =========================
+# File Management
+# =========================
+alias ls='ls --color=auto'
+alias ll='ls -lh'
+alias la='ls -A'
+alias l='ls -CF'
+alias mkdir='mkdir -pv'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias del='rm -rf'
+alias findf='find . -type f -name'
+alias findd='find . -type d -name'
+alias sz='stat'
+alias tree='tree -C'
+alias fsize='du -sh *'
+alias ftype='file *'
+
+# =========================
+# Package Management
+# =========================
+alias up='pkg update && pkg upgrade -y'
+alias install='pkg install -y'
+alias remove='pkg uninstall -y'
+alias search='pkg search'
+alias clean='apt autoclean && apt autoremove -y'
+alias pipi='pip install'
+alias pipiu='pip install --upgrade'
+alias pipu='pip uninstall'
+alias snapup='pkg update && pkg upgrade && pip install --upgrade pip'
+
+# =========================
+# Git Shortcuts
+# =========================
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gpl='git pull'
+alias gl='git log --oneline --graph --decorate'
+alias gco='git checkout'
+alias gbr='git branch'
+alias gdf='git diff'
+alias gcl='git clone'
+
+# =========================
+# Networking & Internet
+# =========================
+alias pingg='ping -c 5'
+alias myip='curl ifconfig.me'
+alias wgetf='wget -c'
+alias curlf='curl -O'
+alias net='ifconfig'
+alias ns='nslookup'
+alias ports='netstat -tulnp'
+alias speed='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3'
+alias weather='curl wttr.in'
+
+# =========================
+# Python & Scripts
+# =========================
+alias py='python'
+alias py3='python3'
+alias ipy='ipython'
+alias piplist='pip list'
+alias pipfreeze='pip freeze > requirements.txt'
+alias runpy='python3'
+
+# =========================
+# Compression / Archives
+# =========================
+alias untar='tar -xvf'
+alias tgz='tar -czvf'
+alias unzipf='unzip -q'
+alias zipf='zip -r'
+alias rarf='rar a'
+alias rarx='unrar x'
+alias gz='gzip -d'
+
+# =========================
+# System Info & Monitoring
+# =========================
+alias cls='clear'
+alias now='date +"%T"'
+alias today='date +"%Y-%m-%d"'
+alias htop='htop'
+alias mem='free -h'
+alias df1='df -h'
+alias du1='du -h --max-depth=1'
+alias cpu='lscpu'
+alias uname='uname -a'
+alias battery='termux-battery-status'
+
+# =========================
+# Media & Audio
+# =========================
+alias play='termux-media-player play'
+alias stop='termux-media-player stop'
+alias listm='termux-media-player list'
+alias record='termux-media-recorder audio'
+alias vidrec='termux-media-recorder video'
+
+# =========================
+# Quick Shortcuts
+# =========================
+alias editrc='nano ~/.bashrc'
+alias reload='source ~/.bashrc'
+alias sudo='tsu'
+alias today='date +"%Y-%m-%d"'
+alias cls='clear'
+alias gohome='cd ~'
+alias cdpics='cd ~/storage/shared/Pictures'
+alias cdvids='cd ~/storage/shared/Movies'
+alias cdsongs='cd ~/storage/shared/Music'
+alias ff='find . -type f -name'
+alias fd='find . -type d -name'
+
+# =========================
+# Fun / Misc
+# =========================
+alias cowsay='cowsay -f tux'
+alias sl='sl -l'
+alias fortune='fortune | cowsay'
+alias cheer='echo "Keep coding!"'
+alias lol='echo "😂😂😂"'
+alias shrug='echo "¯\_(ツ)_/¯"'
+
+# =========================
+# Advanced / Misc Utilities
+# =========================
+alias extract='for i in *.zip; do unzip "$i"; done'
+alias mkcd='mkdir -p $1 && cd $1'
+alias ipinfo='curl ipinfo.io'
+alias jsonfmt='python3 -m json.tool'
+alias serve='python3 -m http.server'
+alias pingall='for ip in $(seq 1 254); do ping -c 1 192.168.1.$ip & done'
