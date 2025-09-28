@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2
+
+- Minor changes and script improvement.
+
+---
+
 ## v1.1
 
 - Added script for Non-Root Users.
@@ -9,7 +15,3 @@
 - Added script for installing extra packages - **tmux-packages.sh**
 
 - Updated README.md
-
-## v1.2
-
-- Minor changes and script improvement.
