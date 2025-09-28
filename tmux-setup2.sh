@@ -6,11 +6,11 @@ echo "---"
 
 sleep 2
 echo " "
-echo "[+] Moving files to home directory..."
+echo "[+] Copying files to home directory..."
 echo " "
 cd ~/tmux-setup
-mv -r .termux OneShot-C ~/ || { echo "[-] Failed to move files."; exit 1; }
-echo "[✓] Files moved successfully."
+cp -r .termux OneShot-C ~/ || { echo "[-] Failed to copy files."; exit 1; }
+echo "[✓] Files copied successfully."
 
 sleep 2
 
@@ -30,6 +30,7 @@ echo " "
 sleep 2
 
 cd $HOME/OneShot-C && make && chmod +x oneshot || { echo "[-] Failed to compile OneShot-C."; exit 1; }
+echo " "
 echo "[✓] Compiled OneShot successfully (ignore the warnings)."
 
 sleep 2
