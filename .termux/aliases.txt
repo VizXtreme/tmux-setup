@@ -121,6 +121,7 @@ alias vidrec='termux-media-recorder video'
 # =========================
 # Quick Shortcuts
 # =========================
+alias aliases='glow ~/termux/aliases.md'
 alias editrc='nano ~/.bashrc'
 alias reload='source ~/.bashrc'
 alias sudo='tsu'
@@ -129,7 +130,7 @@ alias cls='clear'
 alias gohome='cd ~'
 alias cdpics='cd ~/storage/shared/Pictures'
 alias cdvids='cd ~/storage/shared/Movies'
-alias cdsongs='cd ~/storage/shared/Music'
+alias cdmscs='cd ~/storage/shared/Music'
 alias ff='find . -type f -name'
 alias fd='find . -type d -name'
 

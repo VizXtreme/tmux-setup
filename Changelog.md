@@ -1,11 +1,15 @@
-# Changelogs
+# Changelog
 
 ## v1.1
 
-• Added script for Non-Root Users.
+- Added script for Non-Root Users.
 
-• Added aliases - check them using `cat ~/.aliases.txt`
+- Added aliases - check them using `aliases` command or [here](https://github.com/VizXtreme/tmux-setup/blob/main/aliases.md)
 
-• Added script for installing extra packages - **tmux-packages.sh**
+- Added script for installing extra packages - **tmux-packages.sh**
 
-• Updated README.md
+- Updated README.md
+
+## v1.2
+
+- Minor changes and script improvement.

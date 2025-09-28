@@ -22,4 +22,4 @@ ${T_APP_VERSION} ${T_APK_RELEASE}${nl}
   Update:  pkg update
 \e[0;32mFor fixing any repository issues\033[0m:
   Try \e[4mtermux-change-repo\e[0m command\n"
-fastfetch --logo none
+fastfetch -c .termux/config.jsonc --logo none

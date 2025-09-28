@@ -6,11 +6,11 @@ echo "---"
 
 sleep 2
 echo " "
-echo "[+] Copying files to home directory..."
+echo "[+] Moving files to home directory..."
 echo " "
 cd ~/tmux-setup
-cp -r .termux fastfetch OneShot-C ~/ || { echo "[-] Failed to copy tmux files."; exit 1; }
-echo "[✓] Files copied successfully."
+mv -r .termux OneShot-C ~/ || { echo "[-] Failed to move files."; exit 1; }
+echo "[✓] Files moved successfully."
 
 sleep 2
 
@@ -36,11 +36,12 @@ sleep 2
 
 echo " "
 echo "[+] Cleaning up..."
-cd ~/ && rm -rf Termux-zsh
+cd ~/ && mkdir sh_bak && mv tmux-setup/tmux* sh_bak/ && rm -rf Termux-zsh tmux-setup
 
 sleep 2
 
 echo " "
 echo "[✓] Done."
+echo " "
 
 sleep 1
