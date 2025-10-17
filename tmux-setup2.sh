@@ -9,7 +9,7 @@ echo " "
 echo "[+] Copying files to home directory..."
 echo " "
 cd ~/tmux-setup
-cp -r .termux OneShot-C ~/ || { echo "[-] Failed to copy files."; exit 1; }
+cp -r .zshrc .termux OneShot-C ~/ || { echo "[-] Failed to copy files."; exit 1; }
 echo "[✓] Files copied successfully."
 
 sleep 2
@@ -19,6 +19,7 @@ echo "[+] Installing OneShot dependencies..."
 echo " "
 pkg install -y root-repo
 pkg install -y wpa-supplicant pixiewps iw openssl || { echo "[-] Failed to install OneShot dependencies."; exit 1; }
+echo " "
 echo "[✓] OneShot dependencies installed."
 
 sleep 2
