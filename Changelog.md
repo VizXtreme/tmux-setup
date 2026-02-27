@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3
+
+- Improved installation script for seamless automation.
+
+- Added option to choose whether user is a SU or not.
+
+---
+
 ## v1.2
 
 - Minor changes and script improvement.

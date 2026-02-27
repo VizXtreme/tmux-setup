@@ -16,12 +16,6 @@ echo "[✓] Files moved successfully."
 sleep 2
 
 echo " "
-echo "[+] Cleaning up..."
-cd ~/ && mkdir sh_bak && mv tmux-setup/tmux* sh_bak/ && rm -rf Termux-zsh tmux-setup
-
-sleep 2
-
-echo " "
 echo "[✓] Done."
 
 sleep 1

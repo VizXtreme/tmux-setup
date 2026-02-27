@@ -1,20 +1,10 @@
 # tmux-setup
 
-### A bash script to fully automate Termux Setup.
+## A bash script to fully automate Termux Setup.
 ---
 
-1. Run this command in freshly-installed Termux app
+Run this single-line command in freshly-installed Termux app
 ```bash
-pkg install git -y && git clone https://github.com/VizXtreme/tmux-setup.git && cd tmux-setup && bash tmux-setup1.sh
-```
-
-2. After this finishes, restart Termux and run
-```bash
-bash tmux-setup/tmux-setup2.sh
-```
-
-• For Non-Root users (skip step 2)  :
-```bash
-bash tmux-setup/tmux-setup-nr.sh
+pkg install git -y && git clone https://github.com/VizXtreme/tmux-setup.git && cd tmux-setup && bash tmux-setup.sh
 ```
 ### You can read the Changelogs [here](https://github.com/VizXtreme/tmux-setup/blob/main/Changelog.md)

@@ -152,3 +152,8 @@
 | jsonfmt | python3 -m json.tool    |
 | serve   | python3 -m http.server  |
 | pingall | for ip in $(seq 1 254); do ping -c 1 192.168.1.$ip & done |
+
+
+---
+
+**More aliases will be added soon, stay tuned!**

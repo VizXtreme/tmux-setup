@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "---"
-echo "[+] Starting setup process..."
+echo "[+] Starting setup process for root users..."
 echo "---"
 
 sleep 2
@@ -33,12 +33,6 @@ sleep 2
 cd $HOME/OneShot-C && make && chmod +x oneshot || { echo "[-] Failed to compile OneShot-C."; exit 1; }
 echo " "
 echo "[✓] Compiled OneShot successfully (ignore the warnings)."
-
-sleep 2
-
-echo " "
-echo "[+] Cleaning up..."
-cd ~/ && mkdir sh_bak && mv tmux-setup/tmux* sh_bak/ && rm -rf Termux-zsh tmux-setup
 
 sleep 2
 
