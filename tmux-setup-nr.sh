@@ -17,5 +17,6 @@ sleep 2
 
 echo " "
 echo "[✓] Done."
+echo " "
 
 sleep 1
