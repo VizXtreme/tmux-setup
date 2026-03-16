@@ -21,5 +21,6 @@ ${T_APP_VERSION} ${T_APK_RELEASE}${nl}
   Install: pkg install <package>
   Update:  pkg update
 \e[0;32mFor fixing any repository issues\033[0m:
-  Try \e[4mtermux-change-repo\e[0m command\n"
+  Try \e[4mtermux-change-repo\e[0m command\n
+  Contact me on Telegram - \e[4;32mhttps://t.me/VizXtreme\e[0m"
 fastfetch -c .termux/config.jsonc --logo none
